@@ -4,12 +4,18 @@ body {
     box-sizing: border-box;
 }
 
+/* HEADER */
+
 header {
     display: flex;
     justify-content: space-around;
-    background-color: #141414;
+    background-color: #222222;
     color: #e5e5e5;
     align-items: center;
+}
+
+.logo-text {
+    font-size: 24px
 }
 
 nav ul {
@@ -18,6 +24,7 @@ nav ul {
 }
 nav ul li {
     display: inline-block;
+    font-size: 18px;
 }
 
 li a {
@@ -28,3 +35,54 @@ li a {
 li a:hover {
     color: #b9b9b9;
 }
+
+/* MAIN */
+
+/* About part */
+.about {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+    gap: 30px;
+}
+
+.info-part {
+    width: 30%;
+}
+
+.about-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.about-info {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.about-button {
+    color: #f9faf8;
+    width: 130px;
+    background-color: #3882f6;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.about-button:hover {
+    background-color: #3b6cb9;
+}
+
+.about-photo {
+    width: 700px;
+    margin-right: 100px;
+}
+
+/* Hotel photo part */
