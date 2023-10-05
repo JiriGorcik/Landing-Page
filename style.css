@@ -1,3 +1,9 @@
+* {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
+
 body {
     margin: 0;
     padding: 0;
@@ -8,10 +14,12 @@ body {
 
 header {
     display: flex;
+    position: fixed;
     justify-content: space-around;
     background-color: #222222;
     color: #e5e5e5;
     align-items: center;
+    width: 100%;
 }
 
 .logo-text {
