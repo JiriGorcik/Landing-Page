@@ -83,6 +83,34 @@ li a:hover {
 .about-photo {
     width: 700px;
     margin-right: 100px;
+    border-radius: 5px;
 }
 
 /* Hotel photo part */
+
+.hotel-photo {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.hotel-photo h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+}
+
+.hotel-pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.hotel-pic {
+    width: 350px;
+    height: 450px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #868686;
+}
