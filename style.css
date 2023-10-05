@@ -181,3 +181,14 @@ li a:hover {
 .contact-button button:hover {
     background-color: #5190f5;
 }
+
+/* FOOTER */
+
+footer {
+    background-color: #1f2937;
+    color: #c5c5c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
